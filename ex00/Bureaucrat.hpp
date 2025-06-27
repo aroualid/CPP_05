@@ -1,0 +1,16 @@
+
+#ifndef BUREAUCRAT_HPP
+# define BUREAUCRAT_HPP
+
+class Bureaucrat {
+
+public:
+	Bureaucrat();
+	Bureaucrat(Bureaucrat const & src);
+	~Bureaucrat();
+	Bureaucrat &operator=(Bureaucrat const & src);
+
+private:
+};
+
+#endif
