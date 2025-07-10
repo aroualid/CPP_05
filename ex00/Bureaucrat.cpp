@@ -75,18 +75,18 @@ void Bureaucrat::incrGrade()
 	else
 	{
 		this->grade--;
-		std::cout << this->name << " got promoted to grade " << std::endl;
+		std::cout << this->name << " got promoted " << std::endl;
 	}
 }
 
 void Bureaucrat::decrGrade()
 {
-	if (this->grade +1 < 150)
+	if (this->grade +1 > 150)
 		throw GradeTooLowException();
 	else
 	{
 		this->grade++;
-		std::cout << this->name << " got degrade to grade " << std::endl;
+		std::cout << this->name << " got degrade " << std::endl;
 	}
 }
 
