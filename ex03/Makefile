@@ -1,9 +1,9 @@
 NAME = Bureaucrat
 CXX = c++
-CXXFLAGS=  -Wall -Wextra -Werror -g3 -std=c++98 -MMD
+CXXFLAGS=  -g3 -std=c++98 -MMD
 
 OBJ_PATH = obj/
-SRC = main.cpp Bureaucrat.cpp AForm.cpp ShrubberyCreationForm.cpp RobotomyRequestForm.cpp PresidentialPardonForm.cpp
+SRC = main.cpp Bureaucrat.cpp AForm.cpp ShrubberyCreationForm.cpp RobotomyRequestForm.cpp PresidentialPardonForm.cpp Intern.cpp
 OBJ_NAME = $(SRC:.cpp=.o)
 OBJ = $(addprefix $(OBJ_PATH), $(OBJ_NAME))
 

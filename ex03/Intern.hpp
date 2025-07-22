@@ -2,6 +2,8 @@
 #ifndef INTERN_HPP
 # define INTERN_HPP
 
+#include "AForm.hpp"
+
 class Intern {
 
 public:
@@ -9,7 +11,7 @@ public:
 	Intern(Intern const & src);
 	~Intern();
 	Intern &operator=(Intern const & src);
-
+	AForm *makeForm(std::string name, std::string target);
 private:
 };
 
