@@ -1,6 +1,6 @@
 NAME = Bureaucrat
 CXX = c++
-CXXFLAGS=  -g3 -std=c++98 -MMD
+CXXFLAGS=  -g3 -std=c++98 -Wall -Wextra -Werror -MMD
 
 OBJ_PATH = obj/
 SRC = main.cpp Bureaucrat.cpp AForm.cpp ShrubberyCreationForm.cpp RobotomyRequestForm.cpp PresidentialPardonForm.cpp Intern.cpp
